@@ -121,8 +121,8 @@ const BatteryDischargeIndicator = GObject.registerClass({}, class extends GObjec
 
   async _checkDependencies() {
     try {
-      // const file = Gio.File.new_for_path('/usr/bin/powerpop')
-      // await file.query_info_async('standard::*,unix::uid', null, GLib.PRIORITY_DEFAULT, null)
+      const file = Gio.File.new_for_path('/usr/bin/powertop')
+      await file.query_info_async('standard::*,unix::uid', null, GLib.PRIORITY_DEFAULT, null)
     } catch (e) {
       console.log(e)
     }
