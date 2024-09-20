@@ -1,11 +1,11 @@
 {
-  "description": "Switch input language with a single click.",
-  "name": "Language Switch Button",
+  "description": "Watch the power consumption real-time.",
+  "name": "Battery discharge rate indicator",
   "shell-version": [
     "45",
     "46"
   ],
-  "url": "https://github.com/Valent-in/language-switch-button",
-  "uuid": "language-switch-button@valent-in",
-  "version": 2
+  "url": "https://github.com/efogdev/battery-discharge-rate-indicator",
+  "uuid": "battery-discharge-rate@efog.tech",
+  "version": 1
 }
